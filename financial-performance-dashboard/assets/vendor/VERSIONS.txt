@@ -1,5 +1,0 @@
-echarts 6.1.0 Apache-2.0
-papaparse 5.4.1 MIT
-exceljs 4.4.0 MIT
-jspdf 4.2.1 MIT
-jspdf-autotable 5.0.9 MIT
