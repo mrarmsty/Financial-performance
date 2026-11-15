@@ -1,0 +1,656 @@
+{
+ "run": "2026-11-09T18:28:45.559Z",
+ "browser": "Chromium (Playwright)",
+ "passed": 108,
+ "failed": 0,
+ "results": [
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "161 records and 12 companies loaded",
+   "pass": true,
+   "detail": "161 records, 12 companies"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "reference year 2022, 11 companies",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI revenue matches pandas",
+   "pass": true,
+   "detail": "dashboard 1639070.6800000002 vs python 1639070.68"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI revenue_lfl_growth_pct matches pandas",
+   "pass": true,
+   "detail": "dashboard 8.653820052200789 vs python 8.653820052200789"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI net_income matches pandas",
+   "pass": true,
+   "detail": "dashboard 274413.349 vs python 274413.349"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI net_income_lfl_growth_pct matches pandas",
+   "pass": true,
+   "detail": "dashboard -14.053917011561534 vs python -14.053917011561534"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI net_margin_pct matches pandas",
+   "pass": true,
+   "detail": "dashboard 16.742008282400608 vs python 16.74200828240061"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI net_margin_change_pp matches pandas",
+   "pass": true,
+   "detail": "dashboard -4.423390907148441 vs python -4.423390907148438"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI median_cagr_pct matches pandas",
+   "pass": true,
+   "detail": "dashboard 7.120644429607004 vs python 7.120644429607005"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI median_roe_pct matches pandas",
+   "pass": true,
+   "detail": "dashboard 17.672465198545805 vs python 17.672465198545805"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI market_cap_bn matches pandas",
+   "pass": true,
+   "detail": "dashboard 6712.92 vs python 6712.919999999998"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI market_cap_lfl_growth_pct matches pandas",
+   "pass": true,
+   "detail": "dashboard -36.20431588220705 vs python -36.20431588220706"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "classification counts match pandas",
+   "pass": true,
+   "detail": "{\"Consistently strong\":4,\"Mixed\":3,\"Deteriorating\":5}"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "company summaries (9 metrics + class) match pandas for all 12 companies",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "correlation size-growth r and p match scipy",
+   "pass": true,
+   "detail": "r -0.421030231187923, p 0.17287941395242734"
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "correlation mcap-growth r and p match scipy",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "correlation growth-margin r and p match scipy",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T01 load and KPI accuracy",
+   "check": "KPI cards show formatted values",
+   "pass": true,
+   "detail": "Combined revenue iCombined revenueSum of revenue of selected companies in the reference year.Like-for-like change: compa"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "overview: cYearTotals has data series",
+   "pass": true,
+   "detail": "2 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "overview: cShare has data series",
+   "pass": true,
+   "detail": "1 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "growth: cTrend has data series",
+   "pass": true,
+   "detail": "12 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "growth: cCagr has data series",
+   "pass": true,
+   "detail": "1 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "growth: cConsistency has data series",
+   "pass": true,
+   "detail": "3 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "growth: cHeat has data series",
+   "pass": true,
+   "detail": "1 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "profit: cGrossProfit has data series",
+   "pass": true,
+   "detail": "1 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "profit: cMargins has data series",
+   "pass": true,
+   "detail": "2 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "profit: cRevNi has data series",
+   "pass": true,
+   "detail": "2 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "profit: cShift has data series",
+   "pass": true,
+   "detail": "1 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "ratios: cRatio has data series",
+   "pass": true,
+   "detail": "12 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "ratios: cRoe has data series",
+   "pass": true,
+   "detail": "1 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "ratios: cProfile has data series",
+   "pass": true,
+   "detail": "6 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "drivers: cRel has data series",
+   "pass": true,
+   "detail": "4 series"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "scorecard table lists 12 companies",
+   "pass": true,
+   "detail": "12"
+  },
+  {
+   "test": "T02 charts render",
+   "check": "index mode disabled for ratio metrics, enabled for level metrics",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T02 charts render",
+   "check": "trend explorer: metric and index mode switch without errors",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T03 filters",
+   "check": "year filter 2015-2023 keeps exactly the raw rows from 2015 on",
+   "pass": true,
+   "detail": "94 rows vs 94 in raw file"
+  },
+  {
+   "test": "T03 filters",
+   "check": "no filtered row before 2015",
+   "pass": true,
+   "detail": "2015"
+  },
+  {
+   "test": "T03 filters",
+   "check": "company filter: 3 companies in summaries",
+   "pass": true,
+   "detail": "3"
+  },
+  {
+   "test": "T03 filters",
+   "check": "KPIs recalculated for the filter (reference year 2022/2023)",
+   "pass": true,
+   "detail": "{\"year\":2023,\"reporting\":2,\"companies\":3}"
+  },
+  {
+   "test": "T03 filters",
+   "check": "active filter chips shown",
+   "pass": true,
+   "detail": "Years 2015-2023 ✕Companies: AAPL, MSFT, NVDA ✕"
+  },
+  {
+   "test": "T03 filters",
+   "check": "data explorer reflects filter",
+   "pass": true,
+   "detail": "26 of 161 records (26 after filters). Page 1 of 2. Statement values in USD millions."
+  },
+  {
+   "test": "T03 filters",
+   "check": "explorer search narrows rows",
+   "pass": true,
+   "detail": "9 NVDA rows 2015-2023"
+  },
+  {
+   "test": "T03 filters",
+   "check": "explorer sorting toggles ascending/descending",
+   "pass": true,
+   "detail": "4,682 / 394,328"
+  },
+  {
+   "test": "T03 filters",
+   "check": "pagination controls rendered",
+   "pass": true,
+   "detail": "5"
+  },
+  {
+   "test": "T03 filters",
+   "check": "removing a chip removes that filter",
+   "pass": true,
+   "detail": "12"
+  },
+  {
+   "test": "T03 filters",
+   "check": "reset filters restores all 161 records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T04 invalid files",
+   "check": "missing required column rejected with explanation",
+   "pass": true,
+   "detail": "Upload rejected: required columns missing. \"02_missing_required_column.csv\" has no column for: Revenue.\n          Columns found: \"Year\", \"Company \", \"Category\","
+  },
+  {
+   "test": "T04 invalid files",
+   "check": "wrong file type rejected",
+   "pass": true,
+   "detail": "The file could not be used. \"10_wrong_type.txt\" is a .txt file. Please upload a CSV, Excel (.xlsx) or JSON file. Nothing"
+  },
+  {
+   "test": "T04 invalid files",
+   "check": "dataset unchanged after rejected files",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T05 append upload",
+   "check": "preview counts: 10 rows, 9 valid, 1 invalid, 1 duplicate, 8 new",
+   "pass": true,
+   "detail": "{\"rows in file\":10,\"passed validation\":9,\"invalid (rejected)\":1,\"duplicates\":1,\"existing company-years with different values\":0,\"new records to add\":8}"
+  },
+  {
+   "test": "T05 append upload",
+   "check": "rejection reasons listed",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T05 append upload",
+   "check": "validation results downloadable",
+   "pass": true,
+   "detail": "upload_validation_01_append_valid_with_duplicate_and_invalid.csv_2026-11-09.csv"
+  },
+  {
+   "test": "T05 append upload",
+   "check": "confirmation sentence uses actual counts",
+   "pass": true,
+   "detail": "Data successfully added. 10 records were processed, 8 were accepted (8 added), 1 duplicate was detected and 1 record was rejected.All KPIs, charts, tables, the report and the exports now use the updat"
+  },
+  {
+   "test": "T05 append upload",
+   "check": "dataset grows to 169 records and 13 companies",
+   "pass": true,
+   "detail": "169/13"
+  },
+  {
+   "test": "T05 append upload",
+   "check": "KPIs recalculated (combined revenue includes DEMO 2022)",
+   "pass": true,
+   "detail": "1642741.38 > 1639070.68"
+  },
+  {
+   "test": "T05 append upload",
+   "check": "company filter gains DEMO",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T05 append upload",
+   "check": "scorecard includes DEMO",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T05 append upload",
+   "check": "header shows working dataset status",
+   "pass": true,
+   "detail": "Working dataset: 169 records (1 upload in this browser)"
+  },
+  {
+   "test": "T06 local persistence",
+   "check": "after reload the working dataset (169 records, 1 upload) is restored from IndexedDB",
+   "pass": true,
+   "detail": "169, 1"
+  },
+  {
+   "test": "T07 duplicate handling",
+   "check": "re-uploading the same file adds nothing and reports 9 duplicates",
+   "pass": true,
+   "detail": "{\"rows in file\":10,\"passed validation\":9,\"invalid (rejected)\":1,\"duplicates\":9,\"existing company-years with different values\":0,\"new records to add\":0}"
+  },
+  {
+   "test": "T07 duplicate handling",
+   "check": "apply button disabled when nothing to add",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T07 duplicate handling",
+   "check": "duplicate rows inside one file detected",
+   "pass": true,
+   "detail": "{\"rows in file\":3,\"passed validation\":2,\"invalid (rejected)\":0,\"duplicates\":1,\"existing company-years with different values\":0,\"new records to add\":2}"
+  },
+  {
+   "test": "T08 update or add (merge)",
+   "check": "append mode flags the changed existing row as a conflict",
+   "pass": true,
+   "detail": "{\"rows in file\":2,\"passed validation\":2,\"invalid (rejected)\":0,\"duplicates\":0,\"existing company-years with different values\":1,\"new records to add\":1}"
+  },
+  {
+   "test": "T08 update or add (merge)",
+   "check": "merge mode: 1 update, 1 insert",
+   "pass": true,
+   "detail": "{\"rows in file\":2,\"passed validation\":2,\"invalid (rejected)\":0,\"duplicates\":0,\"new records to add\":1,\"records to update\":1,\"already identical\":0}"
+  },
+  {
+   "test": "T08 update or add (merge)",
+   "check": "MSFT 2022 revenue updated and margin recalculated",
+   "pass": true,
+   "detail": "200000, 36.369"
+  },
+  {
+   "test": "T08 update or add (merge)",
+   "check": "dataset now 170 records",
+   "pass": true,
+   "detail": "170"
+  },
+  {
+   "test": "T09 JSON, XLSX and alternative headers",
+   "check": "JSON: 4 records accepted",
+   "pass": true,
+   "detail": "{\"rows in file\":4,\"passed validation\":4,\"invalid (rejected)\":0,\"duplicates\":0,\"existing company-years with different values\":0,\"new records to add\":4}"
+  },
+  {
+   "test": "T09 JSON, XLSX and alternative headers",
+   "check": "XLSX: 5 records accepted",
+   "pass": true,
+   "detail": "{\"rows in file\":5,\"passed validation\":5,\"invalid (rejected)\":0,\"duplicates\":0,\"existing company-years with different values\":0,\"new records to add\":5}"
+  },
+  {
+   "test": "T09 JSON, XLSX and alternative headers",
+   "check": "alternative names mapped and reported",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T09 JSON, XLSX and alternative headers",
+   "check": "dataset now 179 records",
+   "pass": true,
+   "detail": "179"
+  },
+  {
+   "test": "T10 security",
+   "check": "HTML in uploaded text is shown as text, not executed",
+   "pass": true,
+   "detail": "img elements 0, alerts 0"
+  },
+  {
+   "test": "T10 security",
+   "check": "exported CSV neutralises formula text",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T11 data export",
+   "check": "full CSV export has every analysed record",
+   "pass": true,
+   "detail": "181 rows vs 181"
+  },
+  {
+   "test": "T11 data export",
+   "check": "export includes uploaded records and source column",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T11 data export",
+   "check": "export has input, derived and flag columns",
+   "pass": true,
+   "detail": "43 columns"
+  },
+  {
+   "test": "T11 data export",
+   "check": "exported values match the source (AAPL 2022 revenue 394328)",
+   "pass": true,
+   "detail": "2022,AAPL,IT,2066.94,394328,170782,99803,6.11,130541,50672,1"
+  },
+  {
+   "test": "T11 data export",
+   "check": "filtered CSV export matches filtered view",
+   "pass": true,
+   "detail": "47 vs 47; financial_analysis_dataset_filtered_2026-11-09.csv"
+  },
+  {
+   "test": "T11 data export",
+   "check": "XLSX export opens with data, summary and about sheets",
+   "pass": true,
+   "detail": "['Analysis data', 'Company summary', 'About'] 181 17"
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "filtered report downloads as a valid PDF",
+   "pass": true,
+   "detail": "6 pages, financial_performance_report_filtered_2026-11-09.pdf"
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report states scope and filters",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"1. Business context\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"3. Dataset overview\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"4. Data preparation summary\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"5. Analytical methods\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"6. KPI definitions\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"7. Important numerical results\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"8. Key findings\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"10. Recommendations\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has section \"11. Limitations\"",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report reflects uploaded data (DEMO and upload history)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "full-dataset report covers every record",
+   "pass": true,
+   "detail": "181 company-years"
+  },
+  {
+   "test": "T12 PDF report",
+   "check": "report has embedded chart images",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T13 undo and reset",
+   "check": "undo removes the last upload (SAFE)",
+   "pass": true,
+   "detail": "179, 4"
+  },
+  {
+   "test": "T13 undo and reset",
+   "check": "replace asks for confirmation",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T13 undo and reset",
+   "check": "replace leaves only the 3 companies in the file",
+   "pass": true,
+   "detail": "3 companies, 43 records"
+  },
+  {
+   "test": "T13 undo and reset",
+   "check": "undoing a replace restores the previous dataset",
+   "pass": true,
+   "detail": "179"
+  },
+  {
+   "test": "T13 undo and reset",
+   "check": "reset returns to the original 161 records",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T13 undo and reset",
+   "check": "after reset and reload, local data is gone (161 records)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T14 layout and accessibility",
+   "check": "dark mode applied",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T14 layout and accessibility",
+   "check": "arrow keys move between tabs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T14 layout and accessibility",
+   "check": "mobile 390px: no horizontal page scroll on overview",
+   "pass": true,
+   "detail": "overflow 0px"
+  },
+  {
+   "test": "T14 layout and accessibility",
+   "check": "mobile 390px: no horizontal page scroll on growth",
+   "pass": true,
+   "detail": "overflow 0px"
+  },
+  {
+   "test": "T14 layout and accessibility",
+   "check": "mobile 390px: no horizontal page scroll on data",
+   "pass": true,
+   "detail": "overflow 0px"
+  },
+  {
+   "test": "T14 layout and accessibility",
+   "check": "tablet 820px: no horizontal page scroll",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T15 deployment",
+   "check": "all asset references are relative",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T15 deployment",
+   "check": "every referenced file exists",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "test": "T15 deployment",
+   "check": "dashboard also works opened directly from disk (file://)",
+   "pass": true,
+   "detail": "161 records; "
+  },
+  {
+   "test": "T16 console",
+   "check": "no JavaScript errors during the whole run",
+   "pass": true,
+   "detail": ""
+  }
+ ]
+}

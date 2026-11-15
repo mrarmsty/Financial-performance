@@ -1,0 +1,8 @@
+rule,field,action,rows_affected
+C1,column names,Trimmed header whitespace ('Company ' -> 'Company') and renamed to snake_case,161
+C2,category,"Standardised category labels: 'BANK'/'Bank' -> 'Bank', 'ELEC' -> 'Electronics', 'FOOD' -> 'Food', 'LOGI' -> 'Logistics'",71
+C3,gross_profit,"Gross profit equal to revenue (no cost of sales, bank) -> gross margin not meaningful",14
+C4,ebitda,EBITDA recorded as 1 (placeholder) -> missing,14
+C5,current_ratio,Current ratio of exactly 1.0 (placeholder for insurers/banks) -> missing,28
+C6,"debt_equity, roe",Shareholder equity <= 0 -> D/E and ROE not meaningful (missing),11
+C7,market_cap_bn,Missing market cap kept missing (not imputed),1

@@ -1,0 +1,46 @@
+{
+ "reference_year": 2022,
+ "companies_reporting": 11,
+ "combined_revenue": 1639070.68,
+ "revenue_lfl_growth_pct": 8.653820052200789,
+ "combined_net_income": 274413.349,
+ "net_income_lfl_growth_pct": -14.053917011561534,
+ "aggregate_net_margin_pct": 16.74200828240061,
+ "aggregate_net_margin_change_pp": -4.423390907148438,
+ "median_revenue_cagr_pct": 7.120644429607005,
+ "median_roe_pct": 17.672465198545805,
+ "combined_market_cap_bn": 6712.919999999998,
+ "market_cap_lfl_growth_pct": -36.20431588220706,
+ "classification_counts": {
+  "Deteriorating": 5,
+  "Consistently strong": 4,
+  "Mixed": 3
+ },
+ "corr_size_growth": [
+  -0.421030231187923,
+  0.1728794139523923,
+  12
+ ],
+ "corr_size_margin": [
+  -0.03393792842955608,
+  0.91660900757518,
+  12
+ ],
+ "corr_mcap_growth": [
+  0.7600435638429843,
+  0.0041195450677825205,
+  12
+ ],
+ "corr_mcap_margin": [
+  0.7436366152655648,
+  0.0055637935515895015,
+  12
+ ],
+ "corr_growth_margin": [
+  0.37099776944083296,
+  0.23511929696041617,
+  12
+ ],
+ "rows": 161,
+ "companies": 12
+}
